@@ -1162,6 +1162,11 @@
   resolved "http://npm.seiue.com:4873/@humanwhocodes%2fobject-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha1-tSBSnsIdjllFoYUd/Rwy6U45/0U=
 
+"@hutson/parse-repository-url@^3.0.0":
+  version "3.0.2"
+  resolved "http://npm.seiue.com:4873/@hutson%2fparse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
+  integrity sha1-mMI8lQo9m2yPDa7QbabDrwaYE0A=
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.5"
   resolved "http://npm.seiue.com:4873/@jridgewell%2fresolve-uri/-/resolve-uri-3.0.5.tgz#68eb521368db76d040a6315cdb24bf2483037b9c"
@@ -1879,6 +1884,11 @@ acorn@^8.0.4, acorn@^8.0.5, acorn@^8.4.1, acorn@^8.5.0, acorn@^8.7.0:
   resolved "http://npm.seiue.com:4873/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
 
+add-stream@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.seiue.com:4873/add-stream/-/add-stream-1.0.0.tgz#6a7990437ca736d5e1288db92bd3266d5f5cb2aa"
+  integrity sha1-anmQQ3ynNtXhKI25K9MmbV9csqo=
+
 address@^1.1.2:
   version "1.1.2"
   resolved "http://npm.seiue.com:4873/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
@@ -2543,6 +2553,16 @@ concat-map@0.0.1:
   resolved "http://npm.seiue.com:4873/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+concat-stream@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.seiue.com:4873/concat-stream/-/concat-stream-2.0.0.tgz#414cf5af790a48c60ab9be4527d56d5e41133cb1"
+  integrity sha1-QUz1r3kKSMYKub5FJ9VtXkETPLE=
+  dependencies:
+    buffer-from "^1.0.0"
+    inherits "^2.0.3"
+    readable-stream "^3.0.2"
+    typedarray "^0.0.6"
+
 connect-history-api-fallback@^1.6.0:
   version "1.6.0"
   resolved "http://npm.seiue.com:4873/connect-history-api-fallback/-/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
@@ -2567,7 +2587,7 @@ content-type@~1.0.4:
   resolved "http://npm.seiue.com:4873/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
 
-conventional-changelog-angular@^5.0.11:
+conventional-changelog-angular@^5.0.11, conventional-changelog-angular@^5.0.12:
   version "5.0.13"
   resolved "http://npm.seiue.com:4873/conventional-changelog-angular/-/conventional-changelog-angular-5.0.13.tgz#896885d63b914a70d4934b59d2fe7bde1832b28c"
   integrity sha1-iWiF1juRSnDUk0tZ0v573hgysow=
@@ -2575,7 +2595,35 @@ conventional-changelog-angular@^5.0.11:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-conventionalcommits@^4.3.1:
+conventional-changelog-atom@^2.0.8:
+  version "2.0.8"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-atom/-/conventional-changelog-atom-2.0.8.tgz#a759ec61c22d1c1196925fca88fe3ae89fd7d8de"
+  integrity sha1-p1nsYcItHBGWkl/KiP466J/X2N4=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-codemirror@^2.0.8:
+  version "2.0.8"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-codemirror/-/conventional-changelog-codemirror-2.0.8.tgz#398e9530f08ce34ec4640af98eeaf3022eb1f7dc"
+  integrity sha1-OY6VMPCM407EZAr5jurzAi6x99w=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-config-spec@2.1.0:
+  version "2.1.0"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
+  integrity sha1-h0pjUofvi1gf2FWFMr9lXU+1ny0=
+
+conventional-changelog-conventionalcommits@4.6.1:
+  version "4.6.1"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.1.tgz#f4c0921937050674e578dc7875f908351ccf4014"
+  integrity sha1-9MCSGTcFBnTleNx4dfkINRzPQBQ=
+  dependencies:
+    compare-func "^2.0.0"
+    lodash "^4.17.15"
+    q "^1.5.1"
+
+conventional-changelog-conventionalcommits@^4.3.1, conventional-changelog-conventionalcommits@^4.5.0:
   version "4.6.3"
   resolved "http://npm.seiue.com:4873/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.3.tgz#0765490f56424b46f6cb4db9135902d6e5a36dc2"
   integrity sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==
@@ -2584,12 +2632,113 @@ conventional-changelog-conventionalcommits@^4.3.1:
     lodash "^4.17.15"
     q "^1.5.1"
 
+conventional-changelog-core@^4.2.1:
+  version "4.2.4"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-core/-/conventional-changelog-core-4.2.4.tgz#e50d047e8ebacf63fac3dc67bf918177001e1e9f"
+  integrity sha1-5Q0Efo66z2P6w9xnv5GBdwAeHp8=
+  dependencies:
+    add-stream "^1.0.0"
+    conventional-changelog-writer "^5.0.0"
+    conventional-commits-parser "^3.2.0"
+    dateformat "^3.0.0"
+    get-pkg-repo "^4.0.0"
+    git-raw-commits "^2.0.8"
+    git-remote-origin-url "^2.0.0"
+    git-semver-tags "^4.1.1"
+    lodash "^4.17.15"
+    normalize-package-data "^3.0.0"
+    q "^1.5.1"
+    read-pkg "^3.0.0"
+    read-pkg-up "^3.0.0"
+    through2 "^4.0.0"
+
+conventional-changelog-ember@^2.0.9:
+  version "2.0.9"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-ember/-/conventional-changelog-ember-2.0.9.tgz#619b37ec708be9e74a220f4dcf79212ae1c92962"
+  integrity sha1-YZs37HCL6edKIg9Nz3khKuHJKWI=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-eslint@^3.0.9:
+  version "3.0.9"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-eslint/-/conventional-changelog-eslint-3.0.9.tgz#689bd0a470e02f7baafe21a495880deea18b7cdb"
+  integrity sha1-aJvQpHDgL3uq/iGklYgN7qGLfNs=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-express@^2.0.6:
+  version "2.0.6"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-express/-/conventional-changelog-express-2.0.6.tgz#420c9d92a347b72a91544750bffa9387665a6ee8"
+  integrity sha1-QgydkqNHtyqRVEdQv/qTh2Zabug=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-jquery@^3.0.11:
+  version "3.0.11"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-jquery/-/conventional-changelog-jquery-3.0.11.tgz#d142207400f51c9e5bb588596598e24bba8994bf"
+  integrity sha1-0UIgdAD1HJ5btYhZZZjiS7qJlL8=
+  dependencies:
+    q "^1.5.1"
+
+conventional-changelog-jshint@^2.0.9:
+  version "2.0.9"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-jshint/-/conventional-changelog-jshint-2.0.9.tgz#f2d7f23e6acd4927a238555d92c09b50fe3852ff"
+  integrity sha1-8tfyPmrNSSeiOFVdksCbUP44Uv8=
+  dependencies:
+    compare-func "^2.0.0"
+    q "^1.5.1"
+
+conventional-changelog-preset-loader@^2.3.4:
+  version "2.3.4"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.4.tgz#14a855abbffd59027fd602581f1f34d9862ea44c"
+  integrity sha1-FKhVq7/9WQJ/1gJYHx802YYupEw=
+
+conventional-changelog-writer@^5.0.0:
+  version "5.0.1"
+  resolved "http://npm.seiue.com:4873/conventional-changelog-writer/-/conventional-changelog-writer-5.0.1.tgz#e0757072f045fe03d91da6343c843029e702f359"
+  integrity sha512-5WsuKUfxW7suLblAbFnxAcrvf6r+0b7GvNaWUwUIk0bXMnENP/PEieGKVUQrjPqwPT4o3EPAASBXiY6iHooLOQ==
+  dependencies:
+    conventional-commits-filter "^2.0.7"
+    dateformat "^3.0.0"
+    handlebars "^4.7.7"
+    json-stringify-safe "^5.0.1"
+    lodash "^4.17.15"
+    meow "^8.0.0"
+    semver "^6.0.0"
+    split "^1.0.0"
+    through2 "^4.0.0"
+
+conventional-changelog@3.1.24:
+  version "3.1.24"
+  resolved "http://npm.seiue.com:4873/conventional-changelog/-/conventional-changelog-3.1.24.tgz#ebd180b0fd1b2e1f0095c4b04fd088698348a464"
+  integrity sha1-69GAsP0bLh8AlcSwT9CIaYNIpGQ=
+  dependencies:
+    conventional-changelog-angular "^5.0.12"
+    conventional-changelog-atom "^2.0.8"
+    conventional-changelog-codemirror "^2.0.8"
+    conventional-changelog-conventionalcommits "^4.5.0"
+    conventional-changelog-core "^4.2.1"
+    conventional-changelog-ember "^2.0.9"
+    conventional-changelog-eslint "^3.0.9"
+    conventional-changelog-express "^2.0.6"
+    conventional-changelog-jquery "^3.0.11"
+    conventional-changelog-jshint "^2.0.9"
+    conventional-changelog-preset-loader "^2.3.4"
+
 conventional-commit-types@^3.0.0:
   version "3.0.0"
   resolved "http://npm.seiue.com:4873/conventional-commit-types/-/conventional-commit-types-3.0.0.tgz#7c9214e58eae93e85dd66dbfbafe7e4fffa2365b"
   integrity sha1-fJIU5Y6uk+hd1m2/uv5+T/+iNls=
 
-conventional-commits-parser@^3.2.2:
+conventional-commits-filter@^2.0.7:
+  version "2.0.7"
+  resolved "http://npm.seiue.com:4873/conventional-commits-filter/-/conventional-commits-filter-2.0.7.tgz#f8d9b4f182fce00c9af7139da49365b136c8a0b3"
+  integrity sha1-+Nm08YL84Aya9xOdpJNlsTbIoLM=
+  dependencies:
+    lodash.ismatch "^4.4.0"
+    modify-values "^1.0.0"
+
+conventional-commits-parser@^3.2.0, conventional-commits-parser@^3.2.2:
   version "3.2.4"
   resolved "http://npm.seiue.com:4873/conventional-commits-parser/-/conventional-commits-parser-3.2.4.tgz#a7d3b77758a202a9b2293d2112a8d8052c740972"
   integrity sha512-nK7sAtfi+QXbxHCYfhpZsfRtaitZLIA6889kFIouLvz6repszQDgxBu7wf2WbU+Dco7sAnNCJYERCwt54WPC2Q==
@@ -2600,6 +2749,20 @@ conventional-commits-parser@^3.2.2:
     meow "^8.0.0"
     split2 "^3.0.0"
     through2 "^4.0.0"
+
+conventional-recommended-bump@6.1.0:
+  version "6.1.0"
+  resolved "http://npm.seiue.com:4873/conventional-recommended-bump/-/conventional-recommended-bump-6.1.0.tgz#cfa623285d1de554012f2ffde70d9c8a22231f55"
+  integrity sha1-z6YjKF0d5VQBLy/95w2ciiIjH1U=
+  dependencies:
+    concat-stream "^2.0.0"
+    conventional-changelog-preset-loader "^2.3.4"
+    conventional-commits-filter "^2.0.7"
+    conventional-commits-parser "^3.2.0"
+    git-raw-commits "^2.0.8"
+    git-semver-tags "^4.1.1"
+    meow "^8.0.0"
+    q "^1.5.1"
 
 convert-source-map@^1.7.0:
   version "1.8.0"
@@ -2852,6 +3015,11 @@ dargs@^7.0.0:
   resolved "http://npm.seiue.com:4873/dargs/-/dargs-7.0.0.tgz#04015c41de0bcb69ec84050f3d9be0caf8d6d5cc"
   integrity sha1-BAFcQd4Ly2nshAUPPZvgyvjW1cw=
 
+dateformat@^3.0.0:
+  version "3.0.3"
+  resolved "http://npm.seiue.com:4873/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
+  integrity sha1-puN0maTZqc+F71hyBE1ikByYia4=
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "http://npm.seiue.com:4873/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -2978,6 +3146,16 @@ detect-indent@6.0.0:
   resolved "http://npm.seiue.com:4873/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
   integrity sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0=
 
+detect-indent@^6.0.0:
+  version "6.1.0"
+  resolved "http://npm.seiue.com:4873/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
+  integrity sha1-WSSF67v2s7GrK+F1yDk9BMoNV+Y=
+
+detect-newline@^3.1.0:
+  version "3.1.0"
+  resolved "http://npm.seiue.com:4873/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+  integrity sha1-V29d/GOuGhkv8ZLYrTr2MImRtlE=
+
 detect-node@^2.0.4:
   version "2.1.0"
   resolved "http://npm.seiue.com:4873/detect-node/-/detect-node-2.1.0.tgz#c9c70775a49c3d03bc2c06d9a73be550f978f8b1"
@@ -3088,6 +3266,14 @@ dotenv@^10.0.0:
   version "10.0.0"
   resolved "http://npm.seiue.com:4873/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
   integrity sha1-PUInuPuV+BCWzdK2ZlP7LHCFuoE=
+
+dotgitignore@^2.1.0:
+  version "2.1.0"
+  resolved "http://npm.seiue.com:4873/dotgitignore/-/dotgitignore-2.1.0.tgz#a4b15a4e4ef3cf383598aaf1dfa4a04bcc089b7b"
+  integrity sha1-pLFaTk7zzzg1mKrx36SgS8wIm3s=
+  dependencies:
+    find-up "^3.0.0"
+    minimatch "^3.0.4"
 
 duplexer@^0.1.2:
   version "0.1.2"
@@ -3514,6 +3700,13 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
+figures@^3.1.0:
+  version "3.2.0"
+  resolved "http://npm.seiue.com:4873/figures/-/figures-3.2.0.tgz#625c18bd293c604dc4a8ddb2febf0c88341746af"
+  integrity sha1-YlwYvSk8YE3EqN2y/r8MiDQXRq8=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "http://npm.seiue.com:4873/file-entry-cache/-/file-entry-cache-6.0.1.tgz#211b2dd9659cb0394b073e7323ac3c933d522027"
@@ -3562,6 +3755,20 @@ find-root@1.1.0:
   version "1.1.0"
   resolved "http://npm.seiue.com:4873/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
   integrity sha1-q8/Iunb3CMQql7PWhbfpRQv7nOQ=
+
+find-up@^2.0.0:
+  version "2.1.0"
+  resolved "http://npm.seiue.com:4873/find-up/-/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
+  integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
+  dependencies:
+    locate-path "^2.0.0"
+
+find-up@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
+  integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
+  dependencies:
+    locate-path "^3.0.0"
 
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
@@ -3621,6 +3828,13 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "http://npm.seiue.com:4873/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+
+fs-access@^1.0.1:
+  version "1.0.1"
+  resolved "http://npm.seiue.com:4873/fs-access/-/fs-access-1.0.1.tgz#d6a87f262271cefebec30c553407fb995da8777a"
+  integrity sha1-1qh/JiJxzv6+wwxVNAf7mV2od3o=
+  dependencies:
+    null-check "^1.0.0"
 
 fs-extra@8.1.0:
   version "8.1.0"
@@ -3694,6 +3908,16 @@ get-intrinsic@^1.0.2:
     has "^1.0.3"
     has-symbols "^1.0.1"
 
+get-pkg-repo@^4.0.0:
+  version "4.2.1"
+  resolved "http://npm.seiue.com:4873/get-pkg-repo/-/get-pkg-repo-4.2.1.tgz#75973e1c8050c73f48190c52047c4cee3acbf385"
+  integrity sha1-dZc+HIBQxz9IGQxSBHxM7jrL84U=
+  dependencies:
+    "@hutson/parse-repository-url" "^3.0.0"
+    hosted-git-info "^4.0.0"
+    through2 "^2.0.0"
+    yargs "^16.2.0"
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "http://npm.seiue.com:4873/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -3711,7 +3935,7 @@ get-stream@^6.0.0:
   resolved "http://npm.seiue.com:4873/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha1-omLY7vZ6ztV8KFKtYWdSakPL97c=
 
-git-raw-commits@^2.0.0:
+git-raw-commits@^2.0.0, git-raw-commits@^2.0.8:
   version "2.0.11"
   resolved "http://npm.seiue.com:4873/git-raw-commits/-/git-raw-commits-2.0.11.tgz#bc3576638071d18655e1cc60d7f524920008d723"
   integrity sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==
@@ -3721,6 +3945,29 @@ git-raw-commits@^2.0.0:
     meow "^8.0.0"
     split2 "^3.0.0"
     through2 "^4.0.0"
+
+git-remote-origin-url@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.seiue.com:4873/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz#5282659dae2107145a11126112ad3216ec5fa65f"
+  integrity sha1-UoJlna4hBxRaERJhEq0yFuxfpl8=
+  dependencies:
+    gitconfiglocal "^1.0.0"
+    pify "^2.3.0"
+
+git-semver-tags@^4.0.0, git-semver-tags@^4.1.1:
+  version "4.1.1"
+  resolved "http://npm.seiue.com:4873/git-semver-tags/-/git-semver-tags-4.1.1.tgz#63191bcd809b0ec3e151ba4751c16c444e5b5780"
+  integrity sha1-YxkbzYCbDsPhUbpHUcFsRE5bV4A=
+  dependencies:
+    meow "^8.0.0"
+    semver "^6.0.0"
+
+gitconfiglocal@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.seiue.com:4873/gitconfiglocal/-/gitconfiglocal-1.0.0.tgz#41d045f3851a5ea88f03f24ca1c6178114464b9b"
+  integrity sha1-QdBF84UaXqiPA/JMocYXgRRGS5s=
+  dependencies:
+    ini "^1.3.2"
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -3841,6 +4088,18 @@ handle-thing@^2.0.0:
   resolved "http://npm.seiue.com:4873/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha1-hX95zjWVgMNA1DCBzGSJcNC7I04=
 
+handlebars@^4.7.7:
+  version "4.7.7"
+  resolved "http://npm.seiue.com:4873/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
+  integrity sha1-nOM0FqrQLb1sj6+oJA1dmABJRaE=
+  dependencies:
+    minimist "^1.2.5"
+    neo-async "^2.6.0"
+    source-map "^0.6.1"
+    wordwrap "^1.0.0"
+  optionalDependencies:
+    uglify-js "^3.1.4"
+
 hard-rejection@^2.1.0:
   version "2.1.0"
   resolved "http://npm.seiue.com:4873/hard-rejection/-/hard-rejection-2.1.0.tgz#1c6eda5c1685c63942766d79bb40ae773cecd883"
@@ -3907,7 +4166,7 @@ hosted-git-info@^2.1.4:
   resolved "http://npm.seiue.com:4873/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
   integrity sha1-3/wL+aIcAiCQkPKqaUKeFBTa8/k=
 
-hosted-git-info@^4.0.1:
+hosted-git-info@^4.0.0, hosted-git-info@^4.0.1:
   version "4.1.0"
   resolved "http://npm.seiue.com:4873/hosted-git-info/-/hosted-git-info-4.1.0.tgz#827b82867e9ff1c8d0c4d9d53880397d2c86d224"
   integrity sha512-kyCuEOWjJqZuDbRHzL8V93NzQhwIB71oFWSyzVo+KPZI+pnQPPxucdkrOZvkLRnrf5URsQM+IJ09Dw29cRALIA==
@@ -4097,7 +4356,7 @@ inherits@2.0.3:
   resolved "http://npm.seiue.com:4873/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ini@^1.3.4:
+ini@^1.3.2, ini@^1.3.4:
   version "1.3.8"
   resolved "http://npm.seiue.com:4873/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
@@ -4368,7 +4627,7 @@ jsesc@~0.5.0:
   resolved "http://npm.seiue.com:4873/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-json-parse-better-errors@^1.0.2:
+json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "http://npm.seiue.com:4873/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha1-u4Z8+zRQ5pEHwTHRxRS6s9yLyqk=
@@ -4392,6 +4651,11 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "http://npm.seiue.com:4873/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
+
+json-stringify-safe@^5.0.1:
+  version "5.0.1"
+  resolved "http://npm.seiue.com:4873/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
+  integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
 json5@^1.0.1:
   version "1.0.1"
@@ -4469,6 +4733,16 @@ lines-and-columns@^1.1.6:
   resolved "http://npm.seiue.com:4873/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha1-7KKE910pZQeTCdwK2SVauy68FjI=
 
+load-json-file@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.seiue.com:4873/load-json-file/-/load-json-file-4.0.0.tgz#2f5f45ab91e33216234fd53adab668eb4ec0993b"
+  integrity sha1-L19Fq5HjMhYjT9U62rZo607AmTs=
+  dependencies:
+    graceful-fs "^4.1.2"
+    parse-json "^4.0.0"
+    pify "^3.0.0"
+    strip-bom "^3.0.0"
+
 loader-runner@^4.1.0, loader-runner@^4.2.0:
   version "4.2.0"
   resolved "http://npm.seiue.com:4873/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
@@ -4491,6 +4765,22 @@ loader-utils@^2.0.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
+
+locate-path@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.seiue.com:4873/locate-path/-/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
+  integrity sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=
+  dependencies:
+    p-locate "^2.0.0"
+    path-exists "^3.0.0"
+
+locate-path@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/locate-path/-/locate-path-3.0.0.tgz#dbec3b3ab759758071b58fe59fc41871af21400e"
+  integrity sha1-2+w7OrdZdYBxtY/ln8QYca8hQA4=
+  dependencies:
+    p-locate "^3.0.0"
+    path-exists "^3.0.0"
 
 locate-path@^5.0.0:
   version "5.0.0"
@@ -4515,6 +4805,11 @@ lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "http://npm.seiue.com:4873/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha1-US6b1yHSctlOPTpjZT+hdRZ0HKY=
+
+lodash.ismatch@^4.4.0:
+  version "4.4.0"
+  resolved "http://npm.seiue.com:4873/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
+  integrity sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=
 
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
@@ -4787,6 +5082,11 @@ mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.6"
 
+modify-values@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.seiue.com:4873/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
+  integrity sha1-s5OfpgVUZHTj4+PGPWS9Q7TuYCI=
+
 module-alias@^2.2.2:
   version "2.2.2"
   resolved "http://npm.seiue.com:4873/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
@@ -4854,7 +5154,7 @@ negotiator@0.6.3:
   resolved "http://npm.seiue.com:4873/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
   integrity sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==
 
-neo-async@^2.6.2:
+neo-async@^2.6.0, neo-async@^2.6.2:
   version "2.6.2"
   resolved "http://npm.seiue.com:4873/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
@@ -4889,7 +5189,7 @@ node-releases@^2.0.2:
   resolved "http://npm.seiue.com:4873/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
   integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
 
-normalize-package-data@^2.5.0:
+normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "http://npm.seiue.com:4873/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
   integrity sha1-5m2xg4sgDB38IzIl0SyzZSDiNKg=
@@ -4949,6 +5249,11 @@ nth-check@^2.0.1:
   integrity sha1-Lv4WL1w9oGoolZ+9PbddvuqfD8I=
   dependencies:
     boolbase "^1.0.0"
+
+null-check@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.seiue.com:4873/null-check/-/null-check-1.0.0.tgz#977dffd7176012b9ec30d2a39db5cf72a0439edd"
+  integrity sha1-l33/1xdgErnsMNKjnbXPcqBDnt0=
 
 object-assign@^4.0.1:
   version "4.1.1"
@@ -5067,7 +5372,14 @@ p-finally@^1.0.0:
   resolved "http://npm.seiue.com:4873/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-p-limit@^2.2.0:
+p-limit@^1.1.0:
+  version "1.3.0"
+  resolved "http://npm.seiue.com:4873/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
+  integrity sha1-uGvV8MJWkJEcdZD8v8IBDVSzzLg=
+  dependencies:
+    p-try "^1.0.0"
+
+p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.3.0"
   resolved "http://npm.seiue.com:4873/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
@@ -5080,6 +5392,20 @@ p-limit@^3.0.2:
   integrity sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs=
   dependencies:
     yocto-queue "^0.1.0"
+
+p-locate@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.seiue.com:4873/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
+  integrity sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=
+  dependencies:
+    p-limit "^1.1.0"
+
+p-locate@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/p-locate/-/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
+  integrity sha1-Mi1poFwCZLJZl9n0DNiokasAZKQ=
+  dependencies:
+    p-limit "^2.0.0"
 
 p-locate@^4.1.0:
   version "4.1.0"
@@ -5110,6 +5436,11 @@ p-retry@^4.5.0:
     "@types/retry" "^0.12.0"
     retry "^0.13.1"
 
+p-try@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.seiue.com:4873/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
+  integrity sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
+
 p-try@^2.0.0:
   version "2.2.0"
   resolved "http://npm.seiue.com:4873/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
@@ -5129,6 +5460,14 @@ parent-module@^1.0.0:
   integrity sha1-aR0nCeeMefrjoVZiJFLQB2LKqqI=
   dependencies:
     callsites "^3.0.0"
+
+parse-json@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.seiue.com:4873/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
+  integrity sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=
+  dependencies:
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
 
 parse-json@^5.0.0:
   version "5.2.0"
@@ -5175,6 +5514,11 @@ pascal-case@^3.1.2:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
+path-exists@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
+  integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
+
 path-exists@^4.0.0:
   version "4.0.0"
   resolved "http://npm.seiue.com:4873/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
@@ -5205,6 +5549,13 @@ path-to-regexp@0.1.7:
   resolved "http://npm.seiue.com:4873/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-type@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/path-type/-/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
+  integrity sha1-zvMdyOCho7sNEFwM2Xzzv0f0428=
+  dependencies:
+    pify "^3.0.0"
+
 path-type@^4.0.0:
   version "4.0.0"
   resolved "http://npm.seiue.com:4873/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
@@ -5224,6 +5575,16 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   version "2.3.1"
   resolved "http://npm.seiue.com:4873/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
+pify@^2.3.0:
+  version "2.3.0"
+  resolved "http://npm.seiue.com:4873/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
+  integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
+
+pify@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+  integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
 pkg-dir@^4.1.0:
   version "4.2.0"
@@ -5614,6 +5975,14 @@ raw-body@2.4.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+read-pkg-up@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/read-pkg-up/-/read-pkg-up-3.0.0.tgz#3ed496685dba0f8fe118d0691dc51f4a1ff96f07"
+  integrity sha1-PtSWaF26D4/hGNBpHcUfSh/5bwc=
+  dependencies:
+    find-up "^2.0.0"
+    read-pkg "^3.0.0"
+
 read-pkg-up@^7.0.1:
   version "7.0.1"
   resolved "http://npm.seiue.com:4873/read-pkg-up/-/read-pkg-up-7.0.1.tgz#f3a6135758459733ae2b95638056e1854e7ef507"
@@ -5622,6 +5991,15 @@ read-pkg-up@^7.0.1:
     find-up "^4.1.0"
     read-pkg "^5.2.0"
     type-fest "^0.8.1"
+
+read-pkg@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/read-pkg/-/read-pkg-3.0.0.tgz#9cbc686978fee65d16c00e2b19c237fcf6e38389"
+  integrity sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k=
+  dependencies:
+    load-json-file "^4.0.0"
+    normalize-package-data "^2.3.2"
+    path-type "^3.0.0"
 
 read-pkg@^5.1.1, read-pkg@^5.2.0:
   version "5.2.0"
@@ -5633,7 +6011,7 @@ read-pkg@^5.1.1, read-pkg@^5.2.0:
     parse-json "^5.0.0"
     type-fest "^0.6.0"
 
-readable-stream@3, readable-stream@^3.0.0, readable-stream@^3.0.6, readable-stream@^3.4.0:
+readable-stream@3, readable-stream@^3.0.0, readable-stream@^3.0.2, readable-stream@^3.0.6, readable-stream@^3.4.0:
   version "3.6.0"
   resolved "http://npm.seiue.com:4873/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
@@ -5642,7 +6020,7 @@ readable-stream@3, readable-stream@^3.0.0, readable-stream@^3.0.6, readable-stre
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-readable-stream@^2.0.1:
+readable-stream@^2.0.1, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "http://npm.seiue.com:4873/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
@@ -5913,7 +6291,7 @@ semver@7.0.0:
   resolved "http://npm.seiue.com:4873/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha1-XzyjV2HkfgWyBsba/yz4FPAxa44=
 
-semver@7.3.5, semver@^7.2.1, semver@^7.3.4, semver@^7.3.5:
+semver@7.3.5, semver@^7.1.1, semver@^7.2.1, semver@^7.3.4, semver@^7.3.5:
   version "7.3.5"
   resolved "http://npm.seiue.com:4873/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
   integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
@@ -6141,6 +6519,13 @@ split2@^3.0.0:
   dependencies:
     readable-stream "^3.0.0"
 
+split@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.seiue.com:4873/split/-/split-1.0.1.tgz#605bd9be303aa59fb35f9229fbea0ddec9ea07d9"
+  integrity sha1-YFvZvjA6pZ+zX5Ip++oN3snqB9k=
+  dependencies:
+    through "2"
+
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "http://npm.seiue.com:4873/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
@@ -6162,6 +6547,27 @@ stackframe@^1.1.1:
   version "1.2.1"
   resolved "http://npm.seiue.com:4873/stackframe/-/stackframe-1.2.1.tgz#1033a3473ee67f08e2f2fc8eba6aef4f845124e1"
   integrity sha512-h88QkzREN/hy8eRdyNhhsO7RSJ5oyTqxxmmn0dzBIMUclZsjpfmrsg81vp8mjjAs2vAZ72nyWxRUwSwmh0e4xg==
+
+standard-version@^9.3.2:
+  version "9.3.2"
+  resolved "http://npm.seiue.com:4873/standard-version/-/standard-version-9.3.2.tgz#28db8c1be66fd2d736f28f7c5de7619e64cd6dab"
+  integrity sha1-KNuMG+Zv0tc28o98XedhnmTNbas=
+  dependencies:
+    chalk "^2.4.2"
+    conventional-changelog "3.1.24"
+    conventional-changelog-config-spec "2.1.0"
+    conventional-changelog-conventionalcommits "4.6.1"
+    conventional-recommended-bump "6.1.0"
+    detect-indent "^6.0.0"
+    detect-newline "^3.1.0"
+    dotgitignore "^2.1.0"
+    figures "^3.1.0"
+    find-up "^5.0.0"
+    fs-access "^1.0.1"
+    git-semver-tags "^4.0.0"
+    semver "^7.1.1"
+    stringify-package "^1.0.1"
+    yargs "^16.0.0"
 
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"
@@ -6199,6 +6605,11 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
+stringify-package@^1.0.1:
+  version "1.0.1"
+  resolved "http://npm.seiue.com:4873/stringify-package/-/stringify-package-1.0.1.tgz#e5aa3643e7f74d0f28628b72f3dad5cecfc3ba85"
+  integrity sha1-5ao2Q+f3TQ8oYoty89rVzs/DuoU=
+
 strip-ansi@^4.0.0:
   version "4.0.0"
   resolved "http://npm.seiue.com:4873/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
@@ -6231,6 +6642,11 @@ strip-bom@4.0.0:
   version "4.0.0"
   resolved "http://npm.seiue.com:4873/strip-bom/-/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
   integrity sha1-nDUFwdtFvO3KPZz3oW9cWqOQGHg=
+
+strip-bom@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.seiue.com:4873/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
+  integrity sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
 
 strip-eof@^1.0.0:
   version "1.0.0"
@@ -6388,6 +6804,14 @@ thread-loader@^3.0.0:
     neo-async "^2.6.2"
     schema-utils "^3.0.0"
 
+through2@^2.0.0:
+  version "2.0.5"
+  resolved "http://npm.seiue.com:4873/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
+  integrity sha1-AcHjnrMdB8t9A6lqcIIyYLIxMs0=
+  dependencies:
+    readable-stream "~2.3.6"
+    xtend "~4.0.1"
+
 through2@^4.0.0:
   version "4.0.2"
   resolved "http://npm.seiue.com:4873/through2/-/through2-4.0.2.tgz#a7ce3ac2a7a8b0b966c80e7c49f0484c3b239764"
@@ -6395,7 +6819,7 @@ through2@^4.0.0:
   dependencies:
     readable-stream "3"
 
-"through@>=2.2.7 <3", through@^2.3.6:
+through@2, "through@>=2.2.7 <3", through@^2.3.6:
   version "2.3.8"
   resolved "http://npm.seiue.com:4873/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
@@ -6513,10 +6937,20 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
+typedarray@^0.0.6:
+  version "0.0.6"
+  resolved "http://npm.seiue.com:4873/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+  integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
 typescript@^4.4.3:
   version "4.6.3"
   resolved "http://npm.seiue.com:4873/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
   integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
+
+uglify-js@^3.1.4:
+  version "3.15.3"
+  resolved "http://npm.seiue.com:4873/uglify-js/-/uglify-js-3.15.3.tgz#9aa82ca22419ba4c0137642ba0df800cb06e0471"
+  integrity sha512-6iCVm2omGJbsu3JWac+p6kUiOpg3wFO2f8lIXjfEb8RrmLjzog1wTPMmwKB7swfzzqxj9YM+sGUM++u1qN4qJg==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
@@ -6855,6 +7289,11 @@ word-wrap@^1.0.3, word-wrap@^1.2.3:
   resolved "http://npm.seiue.com:4873/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha1-YQY29rH3A4kb00dxzLF/uTtHB5w=
 
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.seiue.com:4873/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
+
 wrap-ansi@^3.0.1:
   version "3.0.1"
   resolved "http://npm.seiue.com:4873/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
@@ -6887,6 +7326,11 @@ ws@^8.4.2:
   resolved "http://npm.seiue.com:4873/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
   integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
+xtend@~4.0.1:
+  version "4.0.2"
+  resolved "http://npm.seiue.com:4873/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
+
 y18n@^5.0.5:
   version "5.0.8"
   resolved "http://npm.seiue.com:4873/y18n/-/y18n-5.0.8.tgz#7f4934d0f7ca8c56f95314939ddcd2dd91ce1d55"
@@ -6917,7 +7361,7 @@ yargs-parser@^21.0.0:
   resolved "http://npm.seiue.com:4873/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
   integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
 
-yargs@^16.0.0:
+yargs@^16.0.0, yargs@^16.2.0:
   version "16.2.0"
   resolved "http://npm.seiue.com:4873/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
   integrity sha1-HIK/D2tqZur85+8w43b0mhJHf2Y=
